@@ -1,0 +1,218 @@
+.iconfont {
+    font-family:iconfont!important;
+    font-size:1.6rem;
+    font-style:normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    color:#ff4814
+}
+.nav__item.contact .iconfont {
+    position: absolute;
+    left: 0;
+}
+.icon-telephone:before{
+    content:url(phone_telephone_icon_155000.png);
+}
+.icon-form:before{
+    content:url(message_one_icon_155131.png);
+}
+.icon-email:before{
+    content:url(mail_icon_155160.png);
+}
+#mf-main-footer{
+    background-color:#202020;
+    color:#aaa;
+    position:relative;
+    clear:both
+}
+.mf-contact-subscribe{
+    border-bottom:1px solid #3b3b3b;
+    height:auto;
+    overflow:hidden
+}
+.mf-navwrap{
+    display:flex;
+    display:-ms-flexbox;
+    align-items:flex-start;
+    justify-content:space-between;
+    padding-top:10px;
+    padding-bottom:10px
+}
+.nav__item{
+    flex-shrink:1;
+    flex-grow:1;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px
+}
+.nav__item.subscribeform{
+    box-sizing:border-box;
+    padding-left:30px
+}
+.nav__item.subscribeform .nav__title{
+    text-align:center
+}
+.nav__title{
+    width:100%;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border-bottom:2px solid #fff;
+    color:#fff;
+    font-size:1.8rem;
+    text-transform:uppercase
+}
+.nav__title--noline{
+    border-bottom:2px solid transparent
+}
+.nav__line{
+    line-height:180%
+}
+.nav__line,.nav__txt{
+    color:#fff;
+    font-size:1rem;
+}
+.nav__item.contact .nav__line{
+    position:relative;
+    padding-left:30px
+}
+.nav__item.contact .iconfont{
+    position:absolute;
+    left:0
+}
+.nav__item.contact .iconfont:before{
+    font-size:2.2rem
+}
+.mf-subscribe-box{
+    box-sizing:border-box;
+    width:100%;
+    height:40px;
+    padding:5px;
+    border:0;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+    outline:none;
+    color:#aaa;
+    font-size:1.4rem;
+    background-color:#000
+}
+.mf-subscribe-btn{
+    box-sizing:border-box;
+    max-width:46%;
+    width:92px;
+    height:32px;
+    margin:2px;
+    background:linear-gradient(#737373,#494949);
+    border:0;border-radius:3px;cursor:pointer
+}
+.mf-copyright{
+    text-align:center;
+    clear:both
+}
+.mf-payment-share{
+    display:flex;
+    display:-ms-flexbox;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    width:fit-content;
+    padding-bottom:5px;
+    margin:0 auto 20px;
+    border-bottom:2px solid #999
+}
+.mf-share{
+    text-align:right;
+    display:flex;
+    align-items:center
+}
+.shareicon{
+    background:transparent url(https://www.cyberpowersystem.co.uk/template/metro/images/footer/ico_Links_normal.png?v3) no-repeat scroll top center;
+    width:30px;
+    height:34px;
+    display:inline-block;
+    margin:0 10px;
+    line-height:100%;
+    flex-shrink:0
+}
+.shareicon:hover{
+    background:transparent url(https://www.cyberpowersystem.co.uk/template/metro/images/footer/ico_Links_Hover.png?v3) no-repeat scroll top center
+}
+.shareicon span{
+    display:none
+}
+.si_gp{
+    background-position:0 0!important
+}
+.si_yt{
+    background-position:-51px 0!important
+}
+.si_tt{
+    background-position:-100px 0!important
+}
+.si_bd{
+    background-position:-150px 0!important
+}
+.si_fb{
+    background-position:-200px 0!important
+}
+.si_dc{background-position:-251px 0!important
+}
+.si_tiktok{
+    background-position:-292px 0!important
+}
+.si_tiktok:hover{
+    background-position:-299px 0!important
+}
+.si_reddit{
+    background-position:-328px 0!important
+}
+.si_reddit:hover{
+    background-position:-346px 0!important
+}
+.mf-disclaimer{
+    font-size:120%;
+    line-height:170%!important;
+    padding:25px 0
+}
+.mf-disclaimer .mf-copyright-info{
+    color:#fff;
+    font-weight:700;
+    line-height:170%!important
+}
+.mf-disclaimer p{
+    line-height:170%!important
+}
+@media(max-width:1199px){
+    .mf-navwrap{
+        flex-wrap:wrap
+    }
+    .nav__item{
+    width:30%
+    }
+}
+@media(max-width:959px){
+    .nav__item{
+        width:50%
+    }
+    .nav__item.subscribeform{
+    padding-left:0;
+    text-align:center
+    }
+}
+@media(max-device-width:730px){
+    #mf-main-footer{
+        box-sizing:border-box;
+        padding-left:10px;
+        padding-right:10px
+    }
+    .mf-payment-share{
+        width:100%;
+        box-sizing:border-box
+    }
+    .mf-payment-share img{
+        max-width:100%
+    }
+    .mf-share{
+        border-bottom:0
+    }
+}
